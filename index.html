@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game of Life</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xterm/css/xterm.css">
+</head>
+<body style="background-image: url('image/3226135.jpg');">
+<header class="text-white py-3 color-change-5x">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <h1 class="h1 bungee-shade-regular shake slide-in-blurred-right" href="#">Game of Life</h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse slide-in-blurred-right" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <button id="home" class="nav-link bungee-shade-regular shake">Inicio</button>
+                    </li>
+                    <li class="nav-item">
+                        <button id="theoric" type="button" class="nav-link bungee-shade-regular shake">Bases Teoricas</button>
+                    </li>
+                    <li class="nav-item">
+                        <button id="about" class="nav-link bungee-shade-regular shake">¿Sobre Nosotros?</button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<main id="root" class="container my-5">
+</main>
+
+<div id="buttons" class="d-flex justify-content-center">
+    <a id="play"  class="btn btn-primary mx-2" type="button">Jugar</a>
+    <a id="reset"  class="btn btn-danger mx-2" type="button">Limpiar Matriz</a>
+</div> <br> <br> <br>
+
+<div style="width: 800px; display: block; margin: auto; overflow: hidden; " id="term"></div>
+<br> <br> <br> <br>
+
+<footer>
+    <div class="audio-player-container">
+        <audio id="audioPlayer" src="music/Y2meta.app%20-%20Undertale%20OST_%20085%20-%20Fallen%20Down%20(Reprise)%20(128%20kbps).mp3"></audio>
+        <div class="controls">
+            <button id="playPauseBtn">▶️</button>
+            <span id="currentTime">00:00</span> / <span id="duration">00:00</span>
+        </div>
+        <label for="volumeSlider">Volumen:</label>
+        <input type="range" id="volumeSlider" min="0" max="1" step="0.01" value="1">
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/xterm/lib/xterm.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/music.js"></script>
+<script type="module" src="js/index.js"></script>
+<script type="module" src="js/GameOfLife.js"></script>
+</body>
+</html>
