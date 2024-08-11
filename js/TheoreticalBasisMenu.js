@@ -54,6 +54,8 @@ export class TheoreticalBasisMenu {
                 <p>Las operaciones con matrices incluyen diversas manipulaciones matemáticas que se pueden realizar sobre matrices.</p>
                 <h2>Transformaciones Lineales</h2>
                 <p>Cada iteración del "Game of Life" puede considerarse como una transformación de la matriz inicial. Esta transformación es una aplicación de las reglas del juego a cada celda de la matriz.</p>
+                <h2>Determinantes y Subespacios</h2>
+                <p>"En el 'Game of Life', ciertas configuraciones de celdas muestran comportamientos repetitivos y estables. Estas configuraciones pueden ser consideradas como subespacios dentro del espacio vectorial de todas las posibles configuraciones. Por ejemplo, los 'Blinkers' son patrones que alternan entre dos estados y pueden considerarse invariables bajo las transformaciones del juego."</p>
             </div> <br> <br> <br>
         `;
     }
