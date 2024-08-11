@@ -102,41 +102,41 @@ export class InfoMenu {
             <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingOne">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                    Aportes Realizados por Said.
+                    Aportes Significativos Realizados por Said.
                 </button>
                 </h2>
                 <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                <div class="accordion-body">Said Acosta fue el encargado de la construcción de la matriz usando la lógica de programación. Él implementó la funcionalidad que le permite al programa crear una matriz nueva cada vez que el usuario pulse el botón de jugar. Además de darle la capacidad de asignar un valor a todas las filas y columnas de la matriz.</div> 
            </div>
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header" id="flush-headingTwo">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                Aportes Realizados por Cristian.
+                Aportes Significativos Realizados por Cristian.
               </button>
             </h2>
             <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+              <div class="accordion-body">Cristian Galeano fue el responsable de implementar el concepto de transformaciones lineales. Ya que con cada iteración, el juego debe transformar la matriz, usando operaciones de adicción y sustracción para definir el estado de cada célula dentro de la misma.</div>
             </div>
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header" id="flush-headingThree">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                Aportes Realizados por Leonardo.
+                Aportes Significativos Realizados por Leonardo.
               </button>
             </h2>
             <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+              <div class="accordion-body">Leonardo Bermúdez fue el encargado de la representación visual del programa. Leonardo usó el concepto de vectores y matrices para dibujar las transformaciones lineales creadas por Cristian anteriormente. Dentro de las otras funcionalidades que Leonardo agregó fueron las animaciones y el apartado sobre los conceptos usados en el trabajo colaborativo.</div>
             </div>
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header" id="flush-headingFour">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                Aportes Realizados por Tomas.
+                Aportes Significtivos Realizados por Tomas.
               </button>
             </h2>
             <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+              <div class="accordion-body">Tomas Jiménez fue el responsable de crear la funcionalidad que le permite al usuario crear su propio diseño dentro de la matriz. La funcionalidad creada por tomas le permite al usuario crear un patrón inicial e insertarlo dentro de la matriz. También fue el responsable de hacer funcionar el botón de limpiar matriz.</div>
             </div>
           </div>
         </div> <br> <br>

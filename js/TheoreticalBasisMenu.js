@@ -51,10 +51,9 @@ export class TheoreticalBasisMenu {
                 <h2>Matrices</h2>
                 <p>Una matriz es una estructura de datos bidimensional que almacena elementos en filas y columnas. Cada elemento de la matriz se identifica mediante dos índices: uno para la fila y otro para la columna. Las matrices son fundamentales en muchas áreas de las matemáticas y la programación, especialmente en álgebra lineal, gráficos por computadora, y más.</p>
                 <h2>Operaciones con Matrices</h2>
-                <p>Las operaciones con matrices incluyen diversas manipulaciones matemáticas que se pueden realizar sobre matrices. Algunas de las operaciones más comunes son:</p>
-                <ul>
-                    <li><strong>Producto de matrices:</strong> El producto de matrices implica multiplicar las filas de la primera matriz por las columnas de la segunda.</li>
-                </ul>
+                <p>Las operaciones con matrices incluyen diversas manipulaciones matemáticas que se pueden realizar sobre matrices.</p>
+                <h2>Transformaciones Lineales</h2>
+                <p>Cada iteración del "Game of Life" puede considerarse como una transformación de la matriz inicial. Esta transformación es una aplicación de las reglas del juego a cada celda de la matriz.</p>
             </div> <br> <br> <br>
         `;
     }
